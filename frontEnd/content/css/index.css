@@ -1,0 +1,10 @@
+@import 'custom.css';
+
+body {
+    background-color: var(--white-100);
+    direction: rtl;
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+    column-gap: 20px;
+}

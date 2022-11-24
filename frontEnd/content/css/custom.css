@@ -1,0 +1,55 @@
+@import 'reset.css';
+@import 'custom-font.css';
+
+:root {
+    --white-50: #ffffff;
+    --white-100: #f6f6f6;
+    --white-200: #e7e7e7;
+
+    --gold-50: #fffcef;
+    --gold-400: #fdc816;
+    
+    --gray-650: #818181;
+    --gray-600: #707070;
+    --gray-700: #626161;
+}
+
+body, * {
+    font-family: Vazir;
+}
+
+.vazir-fb {
+    font-family: Vazir;
+    font-weight: bolder;
+}
+
+.vazir-fl {
+    font-family: Vazir;
+    font-weight: lighter;
+}
+
+.Lalezar-font {
+    font-family: Lalezar;
+}
+
+/* Utility Class */
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
