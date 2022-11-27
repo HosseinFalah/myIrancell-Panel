@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://irancell.ir/wp-content/uploads/2022/03/Irancell-Logo180-2-150x150.png" sizes="32x32">
     <link rel="stylesheet" href="content/css/index.css">
-    <title>myIrancell</title>
+    <title>خرید های من</title>
 </head>
 <body>
     <!--Start Left Side-->
@@ -35,7 +35,7 @@
             
             <!-- Start Active Services -->
             <h1 class="service-title">خدمات فعال</h1>
-
+    
             <div class="active-service-box flex align-items-center vazir-fb">
                 <span class="active-service-icon flex align-items-center justify-content-center">
                     <i class="fa-regular fa-envelope"></i>
@@ -45,7 +45,7 @@
                     <h6>تا تاریخ شهریور 1401</h6>
                 </div>
             </div>
-
+    
             <div class="active-service-box flex align-items-center vazir-fb">
                 <span class="active-service-icon flex align-items-center justify-content-center">
                     <i class="fa-solid fa-wifi"></i>
@@ -57,11 +57,10 @@
             </div>
 
             <!-- Finish Active Services -->
-
+    
             <div class="download-app-box flex align-items-center justify-content-between">
                 <img src="content/img/Myirancell-logo_144x144.png" alt="myIrancell_logo">
                 <h1>اپلیکیشن ما رو دانلود کن !</h1>
-
             </div>
         </div>
         <!--Finish Sim Card Charge-->
@@ -70,21 +69,11 @@
 
     <!--Start Center Section-->
     <main class="main">
-        <h1 class="main-title lalezar-font">صفحه اصلی</h1>
-        <section class="main-overlay flex flex-column">
-            <h1 class="lalezar-font">این همه بسته بی سابقست !</h1>
-            <button>اینجا چه خبره !</button>
-        </section>
-        <section class="chart">
-            <h1 class="lalezar-font">نمودار میزان مصرف کل</h1>
-            <canvas id="myChart" height="100">
-                Your Browser dons Not Support The Canvas Element.
-            </canvas>
-        </section>
         <section class="recommend-packets">
-            <h1 class="recommend-packets-title">بسته های پیشنهادی مخصوص خود شما</h1>
+            <h1 class="recommend-packets-title">خرید های من</h1>
             <table class="recommend-packets-table">
                 <tr class="vazir-fb">
+                    <td>تاریخ خرید بسته</td>
                     <td>تاریخ انقضا بسته</td>
                     <td>نام بسته</td>
                     <td>تخفیف</td>
@@ -92,30 +81,30 @@
                 </tr>
                 <tr>
                     <td>14 شهریور 1401</td>
-                    <td>بسته اینترنت سه ماهه</td>
+                    <td>14 مهر 1401</td>
+                    <td>بسته اینترنت 1 ماهه</td>
                     <td>20 %</td>
                     <td>130,000</td>
-                    <td><button class="buy-packet-btn lalezar-font">خرید</button></td>
                 </tr>
                 <tr>
-                    <td>12 خرداد 1401</td>
-                    <td>بسته ترکیبی هفته ای</td>
+                    <td>16 اسفند 1401</td>
+                    <td>3 خرداد 1401</td>
+                    <td>بسته اینترنت 3 ماهه</td>
                     <td>45 %</td>
                     <td>45,000</td>
-                    <td><button class="buy-packet-btn lalezar-font">خرید</button></td>
                 </tr>
                 <tr>
                     <td>15 تیر 1401</td>
-                    <td>بسته مکالمه شبانه</td>
+                    <td>15 تیر 1402</td>
+                    <td>بسته اینترنت 1 ساله</td>
                     <td>15 %</td>
                     <td>50,000</td>
-                    <td><button class="buy-packet-btn lalezar-font">خرید</button></td>
                 </tr>
             </table>
         </section>
     </main>
     <!--Finish Center Section-->
-
+    
     <!--Start Right Side-->
     <div class="sidebar flex align-items-center flex-column">
         <h1 class="sidebar-brand flex align-items-center">
@@ -129,18 +118,18 @@
             </span>
         </div>
         <ul class="sidebar-menu">
-            <li class="sidebar-menu-item flex align-items-center active">
+            <li class="sidebar-menu-item flex align-items-center">
                 <span>
                     <i class="fa-solid fa-house"></i>
                 </span>
-                <a href="#">صفحه اصلی</a>
+                <a href="index.html">صفحه اصلی</a>
             </li>
             <li class="sidebar-menu-item-breaker">سرویس ها</li>
-            <li class="sidebar-menu-item flex align-items-center">
+            <li class="sidebar-menu-item flex align-items-center active">
                 <span>
                     <i class="fa-solid fa-chart-pie"></i>
                 </span>
-                <a href="packets.html">خرید های من</a>
+                <a href="#">خرید های من</a>
             </li>
             <li class="sidebar-menu-item flex align-items-center">
                 <span>
@@ -186,11 +175,5 @@
 
     <!--Font Awesome-->
     <script src="content/js/fontAwesome.js"></script>
-
-    <!--Chart CDN Js-->
-    <script src="content/js/chart.cdn.js"></script>
-
-    <!--Main Script-->
-    <script src="content/js/index.js" type="module"></script>
 </body>
 </html>
