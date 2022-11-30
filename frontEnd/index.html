@@ -14,7 +14,7 @@
         <!--Start Profile Box-->
         <div class="profile-box flex align-items-center">
             <div class="profile-wrapper flex">
-                <img class="user-profile" src="content/img/HosseinProfile.jpg" alt="profile">
+                <img class="user-profile" alt="profile">
             </div>
             <div class="profile-box-desc flex flex-column">
                 <h1 class="user-name">سلام, حسین فلاح</h1>
@@ -35,26 +35,6 @@
             
             <!-- Start Active Services -->
             <h1 class="service-title">خدمات فعال</h1>
-
-            <div class="active-service-box flex align-items-center vazir-fb">
-                <span class="active-service-icon flex align-items-center justify-content-center">
-                    <i class="fa-regular fa-envelope"></i>
-                </span>
-                <div class="active-service-box-desc">
-                    <h4>بسته پیامک هفتگی</h4>
-                    <h6>تا تاریخ شهریور 1401</h6>
-                </div>
-            </div>
-
-            <div class="active-service-box flex align-items-center vazir-fb">
-                <span class="active-service-icon flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-wifi"></i>
-                </span>
-                <div class="active-service-box-desc">
-                    <h4>بسته اینترنت ماهانه</h4>
-                    <h6>تا تاریخ مهر 1402</h6>
-                </div>
-            </div>
 
             <!-- Finish Active Services -->
 
@@ -84,33 +64,14 @@
         <section class="recommend-packets">
             <h1 class="recommend-packets-title">بسته های پیشنهادی مخصوص خود شما</h1>
             <table class="recommend-packets-table">
-                <tr class="vazir-fb">
-                    <td>تاریخ انقضا بسته</td>
-                    <td>نام بسته</td>
-                    <td>تخفیف</td>
-                    <td>قیمت</td>
-                </tr>
-                <tr>
-                    <td>14 شهریور 1401</td>
-                    <td>بسته اینترنت سه ماهه</td>
-                    <td>20 %</td>
-                    <td>130,000</td>
-                    <td><button class="buy-packet-btn lalezar-font">خرید</button></td>
-                </tr>
-                <tr>
-                    <td>12 خرداد 1401</td>
-                    <td>بسته ترکیبی هفته ای</td>
-                    <td>45 %</td>
-                    <td>45,000</td>
-                    <td><button class="buy-packet-btn lalezar-font">خرید</button></td>
-                </tr>
-                <tr>
-                    <td>15 تیر 1401</td>
-                    <td>بسته مکالمه شبانه</td>
-                    <td>15 %</td>
-                    <td>50,000</td>
-                    <td><button class="buy-packet-btn lalezar-font">خرید</button></td>
-                </tr>
+                <tbody>
+                    <tr class="vazir-fb">
+                        <td>تاریخ انقضا بسته</td>
+                        <td>نام بسته</td>
+                        <td>تخفیف</td>
+                        <td>قیمت</td>
+                    </tr>
+                </tbody>
             </table>
         </section>
     </main>
@@ -192,5 +153,8 @@
 
     <!--Main Script-->
     <script src="content/js/index.js" type="module"></script>
+    <script src="content/js/userInfo.js"></script>
+    <script src="content/js/activeServices.js"></script>
+    <script src="content/js/recommend_packs.js"></script>
 </body>
 </html>
